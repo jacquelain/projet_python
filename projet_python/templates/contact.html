@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html>
+<head>
+<! Site projet Python>
+<meta charset="utf-8" />
+<link rel="stylesheet" href="static\css\visite.css" />
+<title> okk</title>
+</head>
+
+  <body>  
+           <fieldset>  
+		<div id= "block-page">
+			  <header>
+			     <div id="tete_image">
+			
+                <div id="tete_description">
+			     
+            <img src="static/img/topimage.jpg" alt="" /></a>
+                  </div>
+			     </div>
+			  
+			</header>
+			
+			
+	    <nav id="choix">
+		     
+                <!fieldset> 
+				
+				  <input type="button" value="      Accueil      " onclick="window.location='visite.html'"> 
+				  <input type="button" value="  Adminitration  " onclick="window.location='administration.html'">
+				  <input type="button" value="   Professeur    " onclick="window.location='professeur.html'">
+				 <input type="button" value="   Code Cours   " onclick="window.location='code_cours.html'"> 
+				 <input type="button" value="    Titre cours    " onclick="window.location='titre_cours.html'"> 
+				  <input type="button" value="Descriptif cours " onclick="window.location='descriptif_cours.html'">
+				  <input type="button" value="       Contact     " onclick="window.location='contact.html'"> 
+              <!/fieldset> 
+                  
+		</nav>
+		
+		<article>           
+                     <fieldset>
+                       <form method="post" action="traitement.php">
+                           
+                                  <label for="nom" >Nom </label>
+                                  <input type="text" name="nom" id="nom" placeholder="Nom" size="30" maxlength="10"autofocus />
+                                  <label for="prenom">Prénom </label>
+                                  <input type="text" name="prenom" id="prenom"placeholder="Prenom" size="30" maxlength="10" required />
+							  <label for="nom" >Email </label>
+                                  <input type="email" name="email" id="email" placeholder="email" size="30" maxlength="50"required>
+                                 <p>
+                                    <label for="ameliorer"></label><br />
+                                     <textarea name="ameliorer" id="ameliorer" rows="10" cols="75" placeholder="Comment pensez-vous que je pourrais améliorer mon site ?"
+									  required></textarea>
+                                </p>
+								<input type="reset"  value="Recommencer" />
+								<input type="submit" value="Envoyer" />
+                           </form>
+				      </fieldset>  
+						
+		</article>
+		
+		<section> 
+		        <fieldset>
+		             <form method="post" action="traitement.php">
+            <p>
+                <label for="pseudo"> Username :</label>
+                      <input type="text" name="pseudo" id="pseudo" />
+                 <br />
+                <label for="pass"> Password :</label>
+                       <input type="password" name="pass" id="pass" />
+				<input type="submit" value="sign in" />
+				<input type="submit" value="sign up" />
+            </p>
+			
+               </fieldset>
+			   
+			      
+			      <p align="right">
+			     <img src="static/img/facebook.png" alt="Facebook"/>
+				 <img src="static/img/twitter.png" alt="Twitter" />
+				 <img src="static/img/vimeo.png" alt="Vimeo" />
+				 <img src="static/img/flickr.png" alt="FLickr" />
+				 <img src="static/img/rss.png" alt="RSS" />
+		    </p>
+			   
+    </form>
+		</section>
+		
+		
+		
+		
+		
+		 <div id= "pub">
+		</div> 
+			  <br>
+      <aside>
+	  
+	  
+	  
+			  
+			  <footer>
+			     <p>Developper par: Remarais Georges d.k<br />
+			                        Constant  Jacquelain <br />
+			          Copyright (okk) - Tous droits réservés<br />
+               <a href="contact.html"> Nous contacter !</a></p>			 
+							  
+			  </footer>
+	    </div>
+    </fieldset>
+  </body>
+</html

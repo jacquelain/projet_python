@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html>
+<head>
+<! Site projet Python>
+<meta charset="utf-8" />
+<link rel="stylesheet" href="static\css\visite.css" />
+<title> Titre cours</title>
+</head>
+
+  <body>  
+           <fieldset>  
+		<div id= "block-page">
+			  <header>
+			     <div id="tete_image">
+			
+                <div id="tete_description">
+			     
+                <img src="static/img/topimage.jpg" alt="" /></a>
+                  </div>
+			     </div>
+			  
+			</header>
+			
+			
+	    <nav id="choix">
+		     
+                <!fieldset> 
+				
+				  <input type="button" value="      Accueil      " onclick="window.location='visite.html'"> 
+				  <input type="button" value="  Adminitration  " onclick="window.location='administration.html'">
+				  <input type="button" value="   Professeur    " onclick="window.location='professeur.html'">
+				 <input type="button" value="   Code Cours   " onclick="window.location='code_cours.html'"> 
+				 <input type="button" value="    Titre cours    " onclick="window.location='titre_cours.html'"> 
+				  <input type="button" value="Descriptif cours " onclick="window.location='descriptif_cours.html'">
+				  <input type="button" value="       Contact     " onclick="window.location='contact.html'"> 
+              <!/fieldset> 
+                  
+		</nav>
+		
+		<article>           
+                     <fieldset>
+                          <form method="post" action="traitement.php">
+                                       
+                                 <label for="Domaine"></label>Domaine<br />
+                                      <select name="domaine" id="Ecole" required>
+                                        <option value="v">Sciences et Technologie "ST"</option>
+										<option value="Domaine">Economie et Gestion "EG"</option>
+										
+                                        </select>
+										
+								<br> <label for="Mention"></label> Mention<br />
+                                      <select name="Mention" id="Mention" required>
+                                        <option value="Mention">Sciences Informatiques "SI"</option>
+										<option value="Mention">Economie et Gestion "EG"</option>
+										
+                                        </select>
+										
+								<br> <label for="Specialite"></label> Specialité<br />
+                                      <select name="Specialite" id="Specialite" >
+                                        <option value="Specialité">Telecommunications "TEL"</option>
+										<option value="Specialité">Base de Donnees "BDD"</option>
+										<option value="Specialité">Organisations de la Net Economie "ONE"</option>
+										<option value="Specialité">Sciences de l'Entreprises "SdE"</option>
+										<option value="Specialité">Sciences Comptables "SC"</option>
+
+                                        </select>
+										
+							  <br> <label for="type_cours"></label> Type cours<br />
+                                      <select name="type_cours" id="type_cours" >
+                                        <option value="Type cours">Obligatoire "Ob"</option>
+										<option value="Type cours">Optionnel "Op"</option>
+										
+                                        </select>
+										
+							 <br> <label for="Langue"></label> Langue<br />
+                                      <select name="Langue" id="Langue" >
+                                        <option value="Langue">  Francais</option>
+										<option value="Langue">  Anglais</option>
+										<option value="Langue">  Espagnol</option>
+										<option value="Langue">  Creole Haitien</option>
+						
+
+                                        </select>			
+								<br>
+                                <br>								
+								<input type="reset"  value="Recommencer" />
+								<input type="submit" value="Envoyer" />
+								</br>
+						  </form>
+				      </fieldset>  
+						
+		</article>
+		
+		<section> 
+		       
+			   
+			      <p align="right">
+			     <img src="static/img/facebook.png" alt="Facebook"/>
+				 <img src="static/img/twitter.png" alt="Twitter" />
+				 <img src="static/img/vimeo.png" alt="Vimeo" />
+				 <img src="static/img/flickr.png" alt="FLickr" />
+				 <img src="static/img/rss.png" alt="RSS" />
+		    </p>
+			   
+    </form>
+		</section>
+		
+		
+		
+		
+		
+		 <div id= "pub">
+		</div> 
+			  <br>
+      <aside>
+	  
+	  
+	  
+			  
+			<footer>
+			     <p>Developper par: Remarais Georges d.k<br />
+			                        Constant  Jacquelain <br />
+			          Copyright (okk) - Tous droits réservés<br />
+               <a href="contact.html"> Nous contacter !</a></p>			 
+							  
+			  </footer>
+	    </div>
+    </fieldset>
+  </body>
+</html
